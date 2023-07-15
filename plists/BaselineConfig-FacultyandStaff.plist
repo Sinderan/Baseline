@@ -81,16 +81,12 @@
 			<string>CrowdStrike Falcon</string>
 			<key>PackagePath</key>
 			<string>FalconSensorMacOS.MaverickGyr.pkg</string>
-			<key>TeamID</key>
-			<string>X9E956P446</string>
 		</dict>
 		<dict>
 			<key>DisplayName</key>
 			<string>GlobalProtect</string>
 			<key>PackagePath</key>
 			<string>GlobalProtect-6.1.1.pkg</string>
-			<key>TeamID</key>
-			<string>PXPZ95SK77</string>
 		</dict>
 		<dict>
 			<key>DisplayName</key>
