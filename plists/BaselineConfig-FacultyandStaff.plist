@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DialogFailureOptions</key>
+	<string>--icon "SF=desktopcomputer.trianglebadge.exclamationmark,color=red"</string>
+	<key>DialogListOptions</key>
+	<string>--message "Welcome to Piedmont University! \n\nFeel free to step away, this could take 30 minutes or more. \n\nYour computer will restart when it's ready for use." --icon "https://piedmontedu.jamfcloud.com/api/v1/branding-images/download/2"</string>
+	<key>DialogSuccessOptions</key>
+	<string>--icon "https://piedmontedu.jamfcloud.com/api/v1/branding-images/download/2"</string>
+	<key>InitialScripts</key>
+	<array>
+		<dict>
+			<key>DisplayName</key>
+			<string>Install Rosetta</string>
+			<key>ScriptPath</key>
+			<string>https://raw.githubusercontent.com/greatkemo/jamfPro/master/macOS/Scripts/install_rosetta.sh</string>
+		</dict>
+	</array>
+	<key>Installomator</key>
+	<array>
+		<dict>
+			<key>DisplayName</key>
+			<string>Microsoft Office 365</string>
+			<key>Label</key>
+			<string>microsoftoffice365</string>
+		</dict>
+		<dict>
+			<key>DisplayName</key>
+			<string>Microsoft Edge</string>
+			<key>Label</key>
+			<string>microsoftedge</string>
+		</dict>
+		<dict>
+			<key>DisplayName</key>
+			<string>Microsoft OneDrive</string>
+			<key>Label</key>
+			<string>microsoftonedrive</string>
+		</dict>
+		<dict>
+			<key>DisplayName</key>
+			<string>Adobe Creative Cloud</string>
+			<key>Label</key>
+			<string>adobecreativeclouddesktop</string>
+		</dict>
+		<dict>
+			<key>DisplayName</key>
+			<string>Adobe Reader DC</string>
+			<key>Label</key>
+			<string>adobereaderdc</string>
+		</dict>
+		<dict>
+			<key>DisplayName</key>
+			<string>Google Chrome</string>
+			<key>Label</key>
+			<string>googlechromepkg</string>
+		</dict>
+		<dict>
+			<key>DisplayName</key>
+			<string>Mozilla Firefox</string>
+			<key>Label</key>
+			<string>firefoxpkg</string>
+		</dict>
+		<dict>
+			<key>DisplayName</key>
+			<string>Zoom Client</string>
+			<key>Label</key>
+			<string>zoom</string>
+		</dict>
+		<dict>
+			<key>DisplayName</key>
+			<string>Rectangle</string>
+			<key>Label</key>
+			<string>rectangle</string>
+		</dict>
+	</array>
+	<key>Packages</key>
+	<array>
+		<dict>
+			<key>DisplayName</key>
+			<string>CrowdStrike Falcon</string>
+			<key>PackagePath</key>
+			<string>FalconSensorMacOS.MaverickGyr.pkg</string>
+			<key>TeamID</key>
+			<string>X9E956P446</string>
+		</dict>
+		<dict>
+			<key>DisplayName</key>
+			<string>GlobalProtect</string>
+			<key>PackagePath</key>
+			<string>GlobalProtect-6.1.1.pkg</string>
+			<key>TeamID</key>
+			<string>PXPZ95SK77</string>
+		</dict>
+		<dict>
+			<key>DisplayName</key>
+			<string>PaperCut MF User Client</string>
+			<key>PackagePath</key>
+			<string>PaperCut MF User Client - Minimized.pkg</string>
+		</dict>
+		<dict>
+			<key>DisplayName</key>
+			<string>PaperCut Print Deploy Client</string>
+			<key>PackagePath</key>
+			<string>PaperCut Print Deploy Client.pkg</string>
+		</dict>
+	</array>
+	<key>Restart</key>
+	<true/>
+</dict>
+</plist>
